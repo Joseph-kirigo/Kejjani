@@ -8,3 +8,11 @@ document.addEventListener("DOMContentLoaded", () => {
     count += 1
     result.innerHTML = `${parseInt(count)} Likes`
   })
+  function addComment(e) {
+    e.preventDefault()
+    let addedComment = {
+      content: e.target.comment_input.value,
+    }
+    fetchComment(addedComment)
+    analyzeData(addedComment)
+  }
