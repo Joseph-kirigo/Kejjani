@@ -9,7 +9,65 @@
   "comments": [
     {
       "id": 1,
-      "body": "some comment",
+      "body": "Can i Move-in this weekend",
+      "postId": 1
+    },
+    {
+      "content": "How much is 200sqft",
+      "id": 2
+    },
+    {
+      "content": "Do you have three bedroom ensuite?",
+      "id": 3
+    },
+    {
+      "content": "An amazing place to live",
+      "id": 5
+    },
+    {
+      "content": "i love it here @Kiserianflats",
+      "id": 6
+    },
+    {
+      "content": "How much is 200sqft",
+      "id": 7
+    },
+    {
+      "content": "How much is 200sqft",
+      "id": 8
+    },
+    {
+      "content": "Do you have three bedroom ensuite?",
+      "id": 9
+    },
+    {
+      "content": "Do you have three bedroom ensuite?",
+      "id": 10
+    },
+    {
+      "content": "How much is 200sqft",
+      "id": 11
+    }
+  ],
+  "comments1": [
+    {
+      "id": 1,
+      "body": "Can i Move-in this weekend",
+      "postId": 1
+    },
+    {
+      "content": "How much is 200sqft",
+      "id": 2
+    },
+    {
+      "content": "Do you have three bedroom ensuite?",
+      "id": 3
+    }
+  ],
+  "comment2": [
+    {
+      "id": 1,
+      "body": "Can i Move-in this weekend",
       "postId": 1
     },
     {
