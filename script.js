@@ -33,3 +33,15 @@ document.addEventListener("DOMContentLoaded", () => {
       .then(response => response.json())
       .then(comment => console.log(comment))
   }
+  function analyzeData(comments) {
+    comments.forEach(comment => {
+      const ul = document.getElementById('comments-list');
+      const li = document.createElement('li')
+      li.innerHTML += comment.content;
+      ul.appendChild(li)
+    })
+  }
+  function init() {
+    getData()
+  }
+  init()
