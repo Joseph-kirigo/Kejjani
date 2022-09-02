@@ -21,3 +21,15 @@ document.addEventListener("DOMContentLoaded", () => {
       .then(res => res.json())
       .then(dataObtain => analyzeData(dataObtain))
   }
+  function fetchComment(addedComment) {
+    return fetch('http://localhost:3000/comments', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify(addedComment)
+      })
+      .then(response => response.json())
+      .then(comment => console.log(comment))
+  }
