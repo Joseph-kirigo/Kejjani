@@ -21,7 +21,7 @@ Companies value feedback from their clients so that they can improve on the deli
 
 * CSS - which was used to style the pages.
 
-* javascript-to make it interactive and engaging. A user can like property as well as comment or write a review.
+* JAVASCRIPT -to make it interactive and engaging. A user can like property as well as comment or write a review.
 
 ## Reference
 * Custom CSS
@@ -54,4 +54,4 @@ SOFTWARE.
 
 ## Authors Info
 by Joseph Kimani Kirigo.
-Linkedin-Joe Kimani
+#Linkedin-Joe Kimani
