@@ -174,11 +174,19 @@ border: 1px solid #25dd0d;
 background: red;
 transition: 1s;
 }
+#client{
+  text-align: left;
+  font-weight: 600;
+  margin-left: 15%;
+  margin-bottom: 14px;
+  padding-top: 5%;
+  /* padding-bottom: 5%; */
+}
 section{
     display: flex;
-    padding-top: 10%;
+    padding-top: 0%;
     /* align-items: center; */
-    margin-left: 15%;
+    margin-left: 0%;
     
 }
 .image-container {
