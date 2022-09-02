@@ -179,6 +179,7 @@ section{
     padding-top: 10%;
     /* align-items: center; */
     margin-left: 15%;
+    
 }
 .image-container {
     width: 100%;
@@ -293,3 +294,54 @@ section{
   .comment-button:focus {
     outline: none;
   }
+  .footer{
+    background: black;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-top: 16px;
+}
+.logo >h1{
+    color: white;
+    font-weight: 900;
+    font-size: 36px;
+    padding-left: 18px;
+
+}
+.logo > p{
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    padding-left: 18px;
+    padding-bottom: 10px;
+}
+.kejjani> h1{
+    color: white;
+    font-weight: 200;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    font-size: 26px;
+}
+.kejjani .fa{
+    background: white;
+    padding: 3px;
+    margin-left: 20%;
+    margin-top: 10px;
+    border-radius: 10px; 
+}
+.kejjani ul li{
+    list-style: none;
+    color: white;
+    padding: 4px 4px 4px 4px;
+}
+.kejjani ul li a{
+    text-decoration: none;
+    color: white;
+}
+ 
