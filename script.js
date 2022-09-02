@@ -16,3 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
     fetchComment(addedComment)
     analyzeData(addedComment)
   }
+  function getData() {
+    return fetch('http://localhost:3000/comments')
+      .then(res => res.json())
+      .then(dataObtain => analyzeData(dataObtain))
+  }
